@@ -1,0 +1,15 @@
+body{
+    background-image: url('b_img.jpg');
+    background-size: cover;
+}
+#input_data{
+    padding-left: 35%;
+    padding-top: 5%;
+}
+#dataPanel{
+    background-color: rgb(255, 255, 255);
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    text-align: center;
+}

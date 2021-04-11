@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Corona Tracker</title>
+    <link rel='stylesheet' href='style.css'>
+    <script src='script.js'></script>
+</head>
+<body>
+
+    <div id="input_data">
+        <input type="text" id="country">
+        <input type="date" id="from_time" name="from_time" min="2019-01-01" max="2021-12-31">
+        <input type="date" id="end_time" name="end_time" min="2019-01-01" max="2021-12-31">
+        <button onclick="getData()">Submit</button>
+    </div>
+    <div id="dataPanel">
+        <div id="con"></div>
+        <div id="rev"></div>
+        <div id="death"></div>
+    </div>
+
+</body>
+</html>
